@@ -6,12 +6,12 @@ const Hero = () => (
   <div className="hero my-5 text-center" data-testid="hero">
     <Logo testId="hero-logo" />
     <h1 className="mb-4" data-testid="hero-title">
-      Next.js Sample Project
+      Computational Thinking Studies
     </h1>
 
     <p className="lead" data-testid="hero-lead">
-      This is a sample application that demonstrates an authentication flow for a Regular Web App, using{' '}
-      <a href="https://nextjs.org">Next.js</a>
+      Esta es un prototipo de aplicación web para el estudio del pensamiento computacional en relación con otras habilidades del S21. 
+    
     </p>
   </div>
 );

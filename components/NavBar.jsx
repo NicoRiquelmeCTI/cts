@@ -32,24 +32,24 @@ const NavBar = () => {
             <Nav className="mr-auto" navbar data-testid="navbar-items">
               <NavItem>
                 <PageLink href="/" className="nav-link" testId="navbar-home">
-                  Home
+                  Inicio
                 </PageLink>
               </NavItem>
               {user && (
                 <>
                   <NavItem>
                     <PageLink href="/csr" className="nav-link" testId="navbar-csr">
-                      Client-side rendered page
+                      Estudios
                     </PageLink>
                   </NavItem>
                   <NavItem>
                     <PageLink href="/ssr" className="nav-link" testId="navbar-ssr">
-                      Server-side rendered page
+                      Instrumentos
                     </PageLink>
                   </NavItem>
                   <NavItem>
                     <PageLink href="/external" className="nav-link" testId="navbar-external">
-                      External API
+                      Data Lab
                     </PageLink>
                   </NavItem>
                 </>

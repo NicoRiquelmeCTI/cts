@@ -1,27 +1,27 @@
 const contentData = [
   {
-    title: 'Configure Other Identity Providers',
-    link: 'https://auth0.com/docs/identityproviders',
+    title: 'objetivo principal del sistema',
+    link: 'https://dcc.uc.cl',
     description:
-      'Auth0 supports social providers as Facebook, Twitter, Instagram and 100+, Enterprise providers as Microsoft Office 365, Google Apps, Azure, and more. You can also use any OAuth2 Authorization Server.'
+      'El objetivo principal del sistema es registrar y analizar las respuestas de los estudiantes a quienes se les aplicará un instrumento de evaluación de habilidades.'
   },
   {
-    title: 'Enable Multifactor Authentication',
-    link: 'https://auth0.com/docs/mfa',
+    title: 'Entidades u objetos clave dentro del sistema',
+    link: 'https://dcc.uc.cl',
     description:
-      'Add an extra layer of security by enabling Multi-factor Authentication, requiring your users to provide more than one piece of identifying information. Push notifications, authenticator apps, SMS, and DUO Security are supported.'
+      'Estudio, Instrumentos, Ítems, Estudiantes, Investigadores, Profesores, Escuelas, Usuarios.'
   },
   {
-    title: 'Attack Protection',
-    link: 'https://auth0.com/docs/attack-protection',
+    title: 'Relaciones entre las entidades',
+    link: 'https://dcc.uc.cl',
     description:
-      'Auth0 can detect anomalies and stop malicious attempts to access your application. Attack protection can alert you and your users of suspicious activity, as well as block further login attempts.'
+      'El sistema debe registrar y analizar diferentes casos de estudio. Un estudio está compuesto por diferentes instrumentos aplicados a los estudiantes (un instrumento es una encuesta con preguntas de opción múltiple, donde cada pregunta tiene una puntuación entre 1 y 5). El estudio es llevado a cabo por un grupo de investigadores y profesores que observan diferentes grupos de estudiantes en una escuela. Los estudiantes, investigadores y profesores son personas que tienen un usuario para iniciar sesión..'
   },
   {
-    title: 'Learn About Rules',
+    title: 'Requisitos o restricciones específicas',
     link: 'https://auth0.com/docs/rules',
     description:
-      "Rules are JavaScript functions that execute when a user authenticates to your application. They run once the authentication process is complete, and you can use them to customize and extend Auth0's capabilities."
+      "Un usuario solo tiene un tipo de persona relacionada, por ejemplo, un usuario solo está relacionado con un estudiante o un investigador, no ambos. Dos usuarios no pueden tener el mismo correo electrónico."
   }
 ];
 
